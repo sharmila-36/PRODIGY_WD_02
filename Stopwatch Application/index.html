@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Stopwatch Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="heading">
+          <i class="fas fa-stopwatch"></i>
+          <h1>STOPWATCH</h1>
+        </div>
+        <div class="time">
+          <div class="time-section">
+            <span class="hour">00</span>
+            <span class="label">HR</span>
+          </div>
+          <span class="colon">:</span>
+          <div class="time-section">
+            <span class="minute">00</span>
+            <span class="label">MIN</span>
+          </div>
+          <span class="colon">:</span>
+          <div class="time-section">
+            <span class="second">00</span>
+            <span class="label">SEC</span>
+          </div>
+          <span class="colon ms-colon">:</span>
+          <div class="time-section">
+            <span class="millisecond">00</span>
+            <span class="label">MS</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="start">Start</button>
+          <button class="stop">Stop</button>
+          <button class="reset">Reset</button>
+          <button class="lap">Lap</button>
+          <button class="dark-mode">Dark Mode</button>
+        </div>
+        <div class="laps">
+          <h3>Lap Times</h3>
+          <ul class="lap-times"></ul>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2024 Sharmila D. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
